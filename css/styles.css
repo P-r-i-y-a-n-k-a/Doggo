@@ -1,0 +1,220 @@
+body{
+    text-align: center;
+}
+h2,h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+p{
+    color: gray;
+    margin-top: 10%;
+    font-weight: lighter;
+}
+
+
+/* Title */
+
+
+
+ #title{
+    background-color: indianred;
+    color: white;
+    height : 800px;
+    text-align: left;
+    
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+.nav-item{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.col-lg-6{
+    font-family: cursive;
+    font-weight: bolder;
+    
+}
+.row{
+    padding-top: 4.5rem;
+}
+.g{
+    font-size: 3rem;
+}
+.my{
+    
+    transform: rotate(25deg);
+    
+    padding-left : 50px;
+    padding-right: 50px;
+    position: relative;
+    
+
+    
+}
+
+.my-own-btn{
+    margin: 5% 3% 5% 0;
+}
+.gh{
+    width: 50%;
+    
+}
+
+
+
+
+/*Features*/
+
+
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index : 1;
+
+}
+.feature{
+    text-align: center;
+    padding: 5%
+}
+
+
+.hj{
+    padding-right: 2%;
+    padding-left:2%;
+}
+
+.fas{
+    margin-bottom: 10%;
+    color: indianred;
+}
+.far{
+    margin-bottom: 10%;
+    color: indianred;
+}
+.fas:hover{
+    color :lightcoral;
+}
+.far:hover{
+    color: lightcoral;
+}
+
+
+
+
+/*Testimonials */
+
+
+#testimonials{
+    padding: 7% 15%;
+    line-height: 2;
+    background-color: indianred;
+    color: white;
+    position: relative;
+    z-index : 1;
+}
+.v{
+    border-radius: 100%;
+    width : 30%;
+    margin : 20px;
+}
+
+
+
+/*Press*/
+
+
+
+#press{
+    background-color: indianred;
+    padding-bottom: 6%;
+    
+}
+.x{
+    width: 15%;
+    margin: 20px 20px 40px;
+}
+
+
+
+/*Pricing*/
+
+
+
+#pricing{
+    padding:100px;
+
+}
+
+
+/*CTA*/
+
+
+
+#cta{
+    background-color: indianred;
+    height : 400px;
+    padding : 7% 15% ;
+    color: white;
+
+}
+.zx{
+    padding-bottom: 50px;
+    font-size: 3rem;
+    
+}
+
+
+
+
+/*Footer*/
+
+
+
+
+#footer{
+    
+    padding : 7% 15% ;
+}
+.lk{
+   margin : 20px 10px ;   
+}
+.jk{
+    margin-top: 0px;
+}
+
+
+
+
+/*Media Query*/
+
+
+
+
+@media (max-width : 1200px){
+    #title{
+        position: static;
+        height: auto;
+        text-align: center;
+    
+    }
+    .n{
+        text-align: center;
+    }
+    
+    .vb{
+        padding-bottom: 50px;
+    }
+    .my{
+        transform: rotate(0deg);
+    }
+}
